@@ -7,19 +7,39 @@
 
 <body>
 
-<header>header element</header>
-<h1>coursera teach me coding Mate!</h1>
+
+<h1 id="top">coursera teach me coding Mate!</h1>
 <h2><span style="color: #c5c340;"> Synceeed, learning to code </span></h2>
 <h3>heading 3 is smaller than h2 and bigger than h3 </h3>
 <h4>heading 4 is smaller than h3 and largaer than h5</h4>
+<p> 
+	<img src="greenunnamed.png" alt="wet parrot">
 
-<!-- Link in to directory -->
-<a href="another.html" title="something special">
+	
+	</p>
+
+<ul>
+<li><a href="#oreo eating list">oreo eating list</a> </li>
+<li><a href="#last paragraph">last paragraph </a> </li>
+</ul>
+
+
+
+<!-- Link in to directory, შიდა ლინკები -->
+<a id="links" href="another.html" title="something special">
 	<div> div linking to a file in the same directory </div>
 	</a>	
 
 	<a href="another.html" title="something special"> linking to a file in the same directory 
 	</a>
+
+<p></p>
+<!-- external link, target ნიშნავს რომ ცალკე ტაბში გაიხსენება ახალი ლინკი -->
+<a href="https://www.nalya.org/home" target="_blank" 
+> Nalya
+</a>
+<p><br><br></p>
+	
 <p></p>
 <p></p>
 <p></p>
@@ -49,7 +69,7 @@
 <!-- numbers instead of bullets -->
 <Ol> 	
 	
-<p> <span style="color: #c5408e;">The List of oreo eating instructions with numbers </span></p>
+<p id="oreo eating list"> <span style="color: #c5408e;">The List of oreo eating instructions with numbers </span></p>
 
 <li>take oreo</li>
 <li>split oreo</li>
@@ -72,7 +92,7 @@
 
 </p>
 
-	this is body text, 
+	<div id="last paragraph"> this is body text, </div> 
 	<p> Writing things in paragraph </p>
 	<p> <span style="background: #c5408e;">The Second Paragraph </span></p>
 	<p>  I'm doing another change to the page. 
@@ -86,6 +106,10 @@
 		<p>Miroo Knooows</p>
 	<p><span style="color: cornflowerblue;">I will create block<div>(here is div)</div> elements in span. </span>
 	</p>
+
+
+
+	<a href="#top">Back to the top</a>
 
 </body>
 </html>
