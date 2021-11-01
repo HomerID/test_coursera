@@ -3,25 +3,122 @@
 <head>
 	<meta charset="utf-8">
 	<title>Oi Lad! Coursera teaching me some cool stuff</title>
+<style>
+
+header li {
+list-style: none;
+
+}
+
+a:link, a:visited {
+text-decoration: none;
+background-color: green;
+border: 1px solid blue;
+margin-bottom: 2px;
+text-align: center;
+display: block;
+color:rgb(0, 0, 0)
+
+}
+
+a:hover {
+	text-decoration: none;
+background-color: rgb(5, 7, 5);
+border: 1px solid rgb(74, 74, 95);
+margin-bottom: 2px;
+text-align: center;
+display: block;
+color:rgb(248, 248, 248)
+
+
+}
+
+a:active {
+	text-decoration: none;
+background-color: rgb(127, 145, 127);
+border: 1px solid rgb(74, 95, 83);
+margin-bottom: 2px;
+text-align: center;
+display: block;
+color:rgb(248, 248, 248)
+
+
+}
+
+
+p {
+color: blue;
+font-size: 20px;
+width: 200px;
+}
+h1 {
+color: rgb(160, 95, 120);
+font-size: 24px;
+text-align: center;
+}
+
+h2 {
+color: rgb(16, 42, 43);
+font-size: 24px;
+text-align: center;
+background-color:rgb(6, 75, 87)
+}
+h3 {
+color: rgba(175, 33, 168, 0.342);
+font-size: 16px;
+text-align: center;
+}
+
+#oreo_eating_list {
+color: rgba(61, 175, 33, 0.342);
+font-size: 16px;
+background-color:rgb(106, 7, 116)
+}
+
+#tings-in-paragraph {
+color: rgb(87, 33, 175);
+font-size: 16px;
+background-color:rgb(205, 207, 71)
+}
+
+.background {
+font-size: 18px;
+font-weight: bold;
+font-style: normal;
+background-color: darkgoldenrod;
+
+
+}
+
+
+</style>
+
 </head>
 
 <body>
 
 
+
 <h1 id="top">coursera teach me coding Mate!</h1>
 <h2><span style="color: #c5c340;"> Synceeed, learning to code </span></h2>
 <h3>heading 3 is smaller than h2 and bigger than h3 </h3>
-<h4>heading 4 is smaller than h3 and largaer than h5</h4>
+<h4 class="background">heading 4 is smaller than h3 and largaer than h5</h4>
+
+<header>
+	<ul>
+		<li><a href="#oreo_eating_list">oreo eating list</a> </li>
+		<li><a href="#last paragraph">last paragraph </a> </li>
+		</ul>
+
+</header>	
 <p> 
 	<img src="https://i.redd.it/lmzry5yplxn01.jpg"
 	width="200" height="300" alt="from web" >
 	
 	</p>
 
-<ul>
-<li><a href="#oreo eating list">oreo eating list</a> </li>
-<li><a href="#last paragraph">last paragraph </a> </li>
-</ul>
+	<div>Hello</div>
+	<span>World!</span>
 
 
 
@@ -69,7 +166,7 @@
 <!-- numbers instead of bullets -->
 <Ol> 	
 	
-<p id="oreo eating list"> <span style="color: #c5408e;">The List of oreo eating instructions with numbers </span></p>
+<p id="oreo_eating_list"> <span style="color: #c5408e;">The List of oreo eating instructions with numbers </span></p>
 
 <li>take oreo</li>
 <li>split oreo</li>
@@ -93,7 +190,7 @@
 </p>
 
 	<div id="last paragraph"> this is body text, </div> 
-	<p> Writing things in paragraph </p>
+	<p id="tings-in-paragraph"> Writing things in paragraph </p>
 	<p> <span style="background: #c5408e;">The Second Paragraph </span></p>
 	<p>  I'm doing another change to the page. 
 		<br> cheeers mate!</p>   
