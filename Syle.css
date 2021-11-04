@@ -1,0 +1,11 @@
+body {
+background-color: rgb(203, 215, 228);
+font-size: 130%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
